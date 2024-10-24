@@ -1,0 +1,58 @@
+name: Schedule Submodule Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Schedule to run daily at midnight (UTC)
+
+jobs:
+  update-submodule:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository, including submodules
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # Ensures submodules are fetched and updated
+
+      # Step 2: Try to update submodules and handle failures for missing commits
+      - name: Update submodules with error handling for WebKit
+        run: |
+          set -e  # Exit immediately if a command exits with a non-zero status
+          
+          # Try updating submodules
+          git submodule update --remote --merge || {
+            echo "Submodule update failed for WebKit, attempting deinit and reinit"
+            
+            # Specifically handle WebKit submodule
+            if grep -q "WebKit" <<< "$(git submodule status)"; then
+              git submodule deinit WebKit
+              git submodule update --init --recursive WebKit
+            fi
+            
+            # Try updating all submodules again
+            git submodule update --remote --merge
+          }
+          git add .
+
+      # Step 3: Capture updated submodules
+      - name: Get updated submodules
+        id: updated_submodules
+        run: |
+          # List all updated submodules
+          UPDATED_SUBMODULES=$(git diff --cached --name-only | grep 'submodule-path' | awk -F/ '{print $2}' | uniq)
+          echo "Updated submodules: $UPDATED_SUBMODULES"
+          echo "::set-output name=submodules::$UPDATED_SUBMODULES"
+
+      # Step 4: Commit and push changes (if any)
+      - name: Commit and push changes
+        run: |
+          if [ -n "${{ steps.updated_submodules.outputs.submodules }}" ]; then
+            git config user.name "GitHub Actions"
+            git config user.email "actions@github.com"
+            git commit -m "Update submodule(s): ${{ steps.updated_submodules.outputs.submodules }}"
+            git push origin ${{ github.ref }}
+          else
+            echo "No submodule updates."
+          fi
