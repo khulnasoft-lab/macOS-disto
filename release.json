@@ -1,0 +1,883 @@
+{
+	"major_release": "OS X 10.10",
+	"release": "OS X 10.10.5",
+	"projects": [
+		{
+			"project": "AppleFileSystemDriver",
+			"tag": "AppleFileSystemDriver-17"
+		},
+		{
+			"project": "AppleRAID",
+			"tag": "AppleRAID-4.0.6"
+		},
+		{
+			"project": "AppleUSBCDCDriver",
+			"tag": "AppleUSBCDCDriver-4303.2.1"
+		},
+		{
+			"project": "AppleUSBIrDA",
+			"tag": "AppleUSBIrDA-145.2.4"
+		},
+		{
+			"project": "AvailabilityVersions",
+			"tag": "AvailabilityVersions-9.20.1"
+		},
+		{
+			"project": "BerkeleyDB",
+			"tag": "BerkeleyDB-21"
+		},
+		{
+			"project": "BootCache",
+			"tag": "BootCache-110.2"
+		},
+		{
+			"project": "CF",
+			"tag": "CF-1153.18"
+		},
+		{
+			"project": "CPAN",
+			"tag": "CPAN-56"
+		},
+		{
+			"project": "CPANInternal",
+			"tag": "CPANInternal-159.1"
+		},
+		{
+			"project": "Chess",
+			"tag": "Chess-311"
+		},
+		{
+			"project": "CommonCrypto",
+			"tag": "CommonCrypto-60061.30.1"
+		},
+		{
+			"project": "CrackLib",
+			"tag": "CrackLib-37765"
+		},
+		{
+			"project": "Csu",
+			"tag": "Csu-85"
+		},
+		{
+			"project": "DiskArbitration",
+			"tag": "DiskArbitration-268"
+		},
+		{
+			"project": "Heimdal",
+			"tag": "Heimdal-398.40.1",
+			"updated": true
+		},
+		{
+			"project": "ICU",
+			"tag": "ICU-531.48"
+		},
+		{
+			"project": "IOATAFamily",
+			"tag": "IOATAFamily-253.0.1"
+		},
+		{
+			"project": "IOATAPIProtocolTransport",
+			"tag": "IOATAPIProtocolTransport-350.0.3"
+		},
+		{
+			"project": "IOAudioFamily",
+			"tag": "IOAudioFamily-203.3"
+		},
+		{
+			"project": "IOBDStorageFamily",
+			"tag": "IOBDStorageFamily-14"
+		},
+		{
+			"project": "IOCDStorageFamily",
+			"tag": "IOCDStorageFamily-51"
+		},
+		{
+			"project": "IODVDStorageFamily",
+			"tag": "IODVDStorageFamily-35"
+		},
+		{
+			"project": "IOFWDVComponents",
+			"tag": "IOFWDVComponents-207.4.1"
+		},
+		{
+			"project": "IOFireWireAVC",
+			"tag": "IOFireWireAVC-423"
+		},
+		{
+			"project": "IOFireWireFamily",
+			"tag": "IOFireWireFamily-458",
+			"updated": true
+		},
+		{
+			"project": "IOFireWireIP",
+			"tag": "IOFireWireIP-226.2"
+		},
+		{
+			"project": "IOFireWireSBP2",
+			"tag": "IOFireWireSBP2-427"
+		},
+		{
+			"project": "IOFireWireSerialBusProtocolTransport",
+			"tag": "IOFireWireSerialBusProtocolTransport-251.0.1"
+		},
+		{
+			"project": "IOGraphics",
+			"tag": "IOGraphics-485.40.1",
+			"updated": true
+		},
+		{
+			"project": "IOHIDFamily",
+			"tag": "IOHIDFamily-606.40.1",
+			"updated": true
+		},
+		{
+			"project": "IOKitTools",
+			"tag": "IOKitTools-91"
+		},
+		{
+			"project": "IOKitUser",
+			"tag": "IOKitUser-1050.20.2"
+		},
+		{
+			"project": "IONetworkingFamily",
+			"tag": "IONetworkingFamily-101"
+		},
+		{
+			"project": "IOPCIFamily",
+			"tag": "IOPCIFamily-239.10.1"
+		},
+		{
+			"project": "IOSCSIParallelFamily",
+			"tag": "IOSCSIParallelFamily-300.0.2"
+		},
+		{
+			"project": "IOSerialFamily",
+			"tag": "IOSerialFamily-74.20.1"
+		},
+		{
+			"project": "IOStorageFamily",
+			"tag": "IOStorageFamily-182.1.1"
+		},
+		{
+			"project": "IOUSBMassStorageClass",
+			"tag": "IOUSBMassStorageClass-372.0.1"
+		},
+		{
+			"project": "JavaScriptCore",
+			"tag": "JavaScriptCore-7600.8.7",
+			"updated": true
+		},
+		{
+			"project": "KerberosHelper",
+			"tag": "KerberosHelper-151"
+		},
+		{
+			"project": "Libc",
+			"tag": "Libc-1044.40.1",
+			"updated": true
+		},
+		{
+			"project": "Libinfo",
+			"tag": "Libinfo-459.40.1",
+			"updated": true
+		},
+		{
+			"project": "Libnotify",
+			"tag": "Libnotify-133.1.1"
+		},
+		{
+			"project": "Librpcsvc",
+			"tag": "Librpcsvc-24"
+		},
+		{
+			"project": "Libsystem",
+			"tag": "Libsystem-1213"
+		},
+		{
+			"project": "Liby",
+			"tag": "Liby-20"
+		},
+		{
+			"project": "MITKerberosShim",
+			"tag": "MITKerberosShim-66"
+		},
+		{
+			"project": "NFS",
+			"tag": "NFS-82.10.1"
+		},
+		{
+			"project": "OpenAL",
+			"tag": "OpenAL-54"
+		},
+		{
+			"project": "OpenLDAP",
+			"tag": "OpenLDAP-499.32.4"
+		},
+		{
+			"project": "OpenPAM",
+			"tag": "OpenPAM-20"
+		},
+		{
+			"project": "OpenSSH",
+			"tag": "OpenSSH-189.40.1",
+			"updated": true
+		},
+		{
+			"project": "OpenSSL098",
+			"tag": "OpenSSL098-52.40.1",
+			"updated": true
+		},
+		{
+			"project": "PostgreSQL",
+			"tag": "PostgreSQL-97.1",
+			"updated": true
+		},
+		{
+			"project": "PowerManagement",
+			"tag": "PowerManagement-494.30.1"
+		},
+		{
+			"project": "RubyGems",
+			"tag": "RubyGems-28"
+		},
+		{
+			"project": "Security",
+			"tag": "Security-57031.40.6",
+			"updated": true
+		},
+		{
+			"project": "SecurityTokend",
+			"tag": "SecurityTokend-55108"
+		},
+		{
+			"project": "SmartCardServices",
+			"tag": "SmartCardServices-55111"
+		},
+		{
+			"project": "SmartcardCCID",
+			"tag": "SmartcardCCID-55008"
+		},
+		{
+			"project": "TimeZoneData",
+			"tag": "TimeZoneData-67"
+		},
+		{
+			"project": "Twisted",
+			"tag": "Twisted-17"
+		},
+		{
+			"project": "UserNotification",
+			"tag": "UserNotification-29"
+		},
+		{
+			"project": "WTF",
+			"tag": "WTF-7600.8.3",
+			"updated": true
+		},
+		{
+			"project": "WebCore",
+			"tag": "WebCore-7600.8.9",
+			"updated": true
+		},
+		{
+			"project": "WebInspectorUI",
+			"tag": "WebInspectorUI-7600.8.3",
+			"updated": true
+		},
+		{
+			"project": "WebKit",
+			"tag": "WebKit-7600.8.9",
+			"updated": true
+		},
+		{
+			"project": "WebKit2",
+			"tag": "WebKit2-7600.8.9",
+			"updated": true
+		},
+		{
+			"project": "adv_cmds",
+			"tag": "adv_cmds-158"
+		},
+		{
+			"project": "apache",
+			"tag": "apache-795.3",
+			"updated": true
+		},
+		{
+			"project": "apache_mod_hfs_apple",
+			"tag": "apache_mod_hfs_apple-14"
+		},
+		{
+			"project": "apache_mod_php",
+			"tag": "apache_mod_php-99",
+			"updated": true
+		},
+		{
+			"project": "apr",
+			"tag": "apr-32"
+		},
+		{
+			"project": "architecture",
+			"tag": "architecture-266"
+		},
+		{
+			"project": "autofs",
+			"tag": "autofs-246.10.1"
+		},
+		{
+			"project": "awk",
+			"tag": "awk-20"
+		},
+		{
+			"project": "bash",
+			"tag": "bash-97"
+		},
+		{
+			"project": "basic_cmds",
+			"tag": "basic_cmds-55"
+		},
+		{
+			"project": "bc",
+			"tag": "bc-21"
+		},
+		{
+			"project": "bind9",
+			"tag": "bind9-45.101"
+		},
+		{
+			"project": "bless",
+			"tag": "bless-103"
+		},
+		{
+			"project": "bmalloc",
+			"tag": "bmalloc-7600.8.3",
+			"updated": true
+		},
+		{
+			"project": "bootp",
+			"tag": "bootp-298.40.1",
+			"updated": true
+		},
+		{
+			"project": "bootstrap_cmds",
+			"tag": "bootstrap_cmds-91"
+		},
+		{
+			"project": "bzip2",
+			"tag": "bzip2-36"
+		},
+		{
+			"project": "cddafs",
+			"tag": "cddafs-253"
+		},
+		{
+			"project": "configd",
+			"tag": "configd-699.40.2",
+			"updated": true
+		},
+		{
+			"project": "copyfile",
+			"tag": "copyfile-118.1.2"
+		},
+		{
+			"project": "cron",
+			"tag": "cron-39"
+		},
+		{
+			"project": "crontabs",
+			"tag": "crontabs-52"
+		},
+		{
+			"project": "cups",
+			"tag": "cups-408.2"
+		},
+		{
+			"project": "curl",
+			"tag": "curl-83.40.2",
+			"updated": true
+		},
+		{
+			"project": "cxxfilt",
+			"tag": "cxxfilt-11"
+		},
+		{
+			"project": "dcerpc",
+			"tag": "dcerpc-61"
+		},
+		{
+			"project": "diskdev_cmds",
+			"tag": "diskdev_cmds-576"
+		},
+		{
+			"project": "disklabel",
+			"tag": "disklabel-6"
+		},
+		{
+			"project": "doc_cmds",
+			"tag": "doc_cmds-49.30.1"
+		},
+		{
+			"project": "dtrace",
+			"tag": "dtrace-147.20.2"
+		},
+		{
+			"project": "dyld",
+			"tag": "dyld-353.2.3",
+			"updated": true
+		},
+		{
+			"project": "eap8021x",
+			"tag": "eap8021x-198.30.1"
+		},
+		{
+			"project": "efax",
+			"tag": "efax-38"
+		},
+		{
+			"project": "emacs",
+			"tag": "emacs-93"
+		},
+		{
+			"project": "expat",
+			"tag": "expat-12"
+		},
+		{
+			"project": "file",
+			"tag": "file-46"
+		},
+		{
+			"project": "file_cmds",
+			"tag": "file_cmds-242"
+		},
+		{
+			"project": "files",
+			"tag": "files-662.40.1",
+			"updated": true
+		},
+		{
+			"project": "gnudiff",
+			"tag": "gnudiff-19"
+		},
+		{
+			"project": "gnuserv",
+			"tag": "gnuserv-7"
+		},
+		{
+			"project": "gnutar",
+			"tag": "gnutar-453"
+		},
+		{
+			"project": "gpatch",
+			"tag": "gpatch-3"
+		},
+		{
+			"project": "gpt",
+			"tag": "gpt-12"
+		},
+		{
+			"project": "groff",
+			"tag": "groff-38.40.1",
+			"updated": true
+		},
+		{
+			"project": "gssd",
+			"tag": "gssd-64"
+		},
+		{
+			"project": "hfs",
+			"tag": "hfs-285"
+		},
+		{
+			"project": "hunspell",
+			"tag": "hunspell-9"
+		},
+		{
+			"project": "iodbc",
+			"tag": "iodbc-42.5"
+		},
+		{
+			"project": "ipsec",
+			"tag": "ipsec-286.1.1"
+		},
+		{
+			"project": "kext_tools",
+			"tag": "kext_tools-384.30.2"
+		},
+		{
+			"project": "keymgr",
+			"tag": "keymgr-28"
+		},
+		{
+			"project": "ksh",
+			"tag": "ksh-23"
+		},
+		{
+			"project": "less",
+			"tag": "less-25"
+		},
+		{
+			"project": "libarchive",
+			"tag": "libarchive-30"
+		},
+		{
+			"project": "libauto",
+			"tag": "libauto-186"
+		},
+		{
+			"project": "libclosure",
+			"tag": "libclosure-65"
+		},
+		{
+			"project": "libdispatch",
+			"tag": "libdispatch-442.1.4"
+		},
+		{
+			"project": "libedit",
+			"tag": "libedit-40"
+		},
+		{
+			"project": "libevent",
+			"tag": "libevent-7"
+		},
+		{
+			"project": "libffi",
+			"tag": "libffi-18.1"
+		},
+		{
+			"project": "libfs",
+			"tag": "libfs-13"
+		},
+		{
+			"project": "libgcc",
+			"tag": "libgcc-14"
+		},
+		{
+			"project": "libiconv",
+			"tag": "libiconv-42"
+		},
+		{
+			"project": "libmalloc",
+			"tag": "libmalloc-53.30.1"
+		},
+		{
+			"project": "libpcap",
+			"tag": "libpcap-48"
+		},
+		{
+			"project": "libpthread",
+			"tag": "libpthread-105.40.1",
+			"updated": true
+		},
+		{
+			"project": "libresolv",
+			"tag": "libresolv-57"
+		},
+		{
+			"project": "libsecurity_agent",
+			"tag": "libsecurity_agent-55000"
+		},
+		{
+			"project": "libsecurity_ldap_dl",
+			"tag": "libsecurity_ldap_dl-55003"
+		},
+		{
+			"project": "libstdcxx",
+			"tag": "libstdcxx-104.1"
+		},
+		{
+			"project": "libtelnet",
+			"tag": "libtelnet-13"
+		},
+		{
+			"project": "libunwind",
+			"tag": "libunwind-35.3"
+		},
+		{
+			"project": "libutil",
+			"tag": "libutil-38"
+		},
+		{
+			"project": "libxml2",
+			"tag": "libxml2-26.1",
+			"updated": true
+		},
+		{
+			"project": "libxslt",
+			"tag": "libxslt-13"
+		},
+		{
+			"project": "llvmCore",
+			"tag": "llvmCore-3425.0.34"
+		},
+		{
+			"project": "lsof",
+			"tag": "lsof-53"
+		},
+		{
+			"project": "lukemftp",
+			"tag": "lukemftp-14.10.1"
+		},
+		{
+			"project": "lukemftpd",
+			"tag": "lukemftpd-50"
+		},
+		{
+			"project": "mDNSResponder",
+			"tag": "mDNSResponder-576.30.4"
+		},
+		{
+			"project": "mail_cmds",
+			"tag": "mail_cmds-30.40.1",
+			"updated": true
+		},
+		{
+			"project": "man",
+			"tag": "man-16"
+		},
+		{
+			"project": "misc_cmds",
+			"tag": "misc_cmds-33"
+		},
+		{
+			"project": "modemccl",
+			"tag": "modemccl-25.1"
+		},
+		{
+			"project": "msdosfs",
+			"tag": "msdosfs-209.20.1"
+		},
+		{
+			"project": "nano",
+			"tag": "nano-12"
+		},
+		{
+			"project": "ncurses",
+			"tag": "ncurses-44"
+		},
+		{
+			"project": "net_snmp",
+			"tag": "net_snmp-147.1",
+			"updated": true
+		},
+		{
+			"project": "netcat",
+			"tag": "netcat-22"
+		},
+		{
+			"project": "network_cmds",
+			"tag": "network_cmds-457"
+		},
+		{
+			"project": "ntfs",
+			"tag": "ntfs-84.40.1",
+			"updated": true
+		},
+		{
+			"project": "ntp",
+			"tag": "ntp-92.30.1"
+		},
+		{
+			"project": "objc4",
+			"tag": "objc4-647"
+		},
+		{
+			"project": "pam_modules",
+			"tag": "pam_modules-140"
+		},
+		{
+			"project": "passwordserver_sasl",
+			"tag": "passwordserver_sasl-194.1"
+		},
+		{
+			"project": "patch_cmds",
+			"tag": "patch_cmds-17"
+		},
+		{
+			"project": "pcre",
+			"tag": "pcre-7"
+		},
+		{
+			"project": "pdisk",
+			"tag": "pdisk-9"
+		},
+		{
+			"project": "perl",
+			"tag": "perl-103.40.1",
+			"updated": true
+		},
+		{
+			"project": "postfix",
+			"tag": "postfix-255"
+		},
+		{
+			"project": "ppp",
+			"tag": "ppp-786.40.2",
+			"updated": true
+		},
+		{
+			"project": "procmail",
+			"tag": "procmail-14"
+		},
+		{
+			"project": "pyobjc",
+			"tag": "pyobjc-45"
+		},
+		{
+			"project": "python",
+			"tag": "python-89.40.1",
+			"updated": true
+		},
+		{
+			"project": "python_modules",
+			"tag": "python_modules-40"
+		},
+		{
+			"project": "remote_cmds",
+			"tag": "remote_cmds-47"
+		},
+		{
+			"project": "removefile",
+			"tag": "removefile-35"
+		},
+		{
+			"project": "rsync",
+			"tag": "rsync-45"
+		},
+		{
+			"project": "ruby",
+			"tag": "ruby-106"
+		},
+		{
+			"project": "screen",
+			"tag": "screen-22"
+		},
+		{
+			"project": "security_authtrampoline",
+			"tag": "security_authtrampoline-55105"
+		},
+		{
+			"project": "security_certificates",
+			"tag": "security_certificates-55040.30.1"
+		},
+		{
+			"project": "security_certtool",
+			"tag": "security_certtool-55109"
+		},
+		{
+			"project": "security_crlrefresh",
+			"tag": "security_crlrefresh-55102"
+		},
+		{
+			"project": "security_dotmac_tp",
+			"tag": "security_dotmac_tp-55107.1"
+		},
+		{
+			"project": "security_ocspd",
+			"tag": "security_ocspd-55124.20.1"
+		},
+		{
+			"project": "security_systemkeychain",
+			"tag": "security_systemkeychain-55202"
+		},
+		{
+			"project": "shell_cmds",
+			"tag": "shell_cmds-179"
+		},
+		{
+			"project": "smb",
+			"tag": "smb-759.40.1",
+			"updated": true
+		},
+		{
+			"project": "srm",
+			"tag": "srm-7"
+		},
+		{
+			"project": "sudo",
+			"tag": "sudo-77",
+			"updated": true
+		},
+		{
+			"project": "swig",
+			"tag": "swig-12"
+		},
+		{
+			"project": "syslog",
+			"tag": "syslog-267"
+		},
+		{
+			"project": "system_cmds",
+			"tag": "system_cmds-643.30.1"
+		},
+		{
+			"project": "system_config",
+			"tag": "system_config-53.0.0.0.1"
+		},
+		{
+			"project": "tcl",
+			"tag": "tcl-105"
+		},
+		{
+			"project": "tcpdump",
+			"tag": "tcpdump-61.40.1",
+			"updated": true
+		},
+		{
+			"project": "tcsh",
+			"tag": "tcsh-65"
+		},
+		{
+			"project": "texinfo",
+			"tag": "texinfo-18"
+		},
+		{
+			"project": "text_cmds",
+			"tag": "text_cmds-88"
+		},
+		{
+			"project": "tidy",
+			"tag": "tidy-15.15"
+		},
+		{
+			"project": "top",
+			"tag": "top-100.1.2"
+		},
+		{
+			"project": "usertemplate",
+			"tag": "usertemplate-99"
+		},
+		{
+			"project": "uucp",
+			"tag": "uucp-11"
+		},
+		{
+			"project": "vim",
+			"tag": "vim-55"
+		},
+		{
+			"project": "webdavfs",
+			"tag": "webdavfs-367"
+		},
+		{
+			"project": "xar",
+			"tag": "xar-255"
+		},
+		{
+			"project": "xnu",
+			"tag": "xnu-2782.40.9",
+			"updated": true
+		},
+		{
+			"project": "zip",
+			"tag": "zip-14.30.1"
+		},
+		{
+			"project": "zlib",
+			"tag": "zlib-55"
+		},
+		{
+			"project": "zsh",
+			"tag": "zsh-61"
+		}
+	]
+}
